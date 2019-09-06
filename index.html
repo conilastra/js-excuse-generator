@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Excuse generator</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bad+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            font-family: 'Abril Fatface', cursive;
+        }
+
+         h2 {
+            font-family: 'Bad Script', cursive;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 19px;
+            font-family: 'Abril Fatface', cursive;
+            border: 2px solid #57A4B4;
+            display: flex;
+            align-content: center;
+            color: #57A4B4;
+            font-weight: 200;
+        }
+
+        button:hover {
+            background-color: #57A4B4;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main class="excuse-box">
+        <h1>No me vas a creer, pero...</h1>
+        <h2 id="excuse-content"></h2>
+        <button onclick="randomExcuse()">Cambiar excusa <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/81/lying-face_1f925.png" width="20" height="20" alt=""> </button>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
